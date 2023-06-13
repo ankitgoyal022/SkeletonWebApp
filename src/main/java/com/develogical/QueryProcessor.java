@@ -2,7 +2,7 @@ package com.develogical;
 
 public class QueryProcessor {
 
-  public String process(String query) {
+  public long process(String query) {
 
     System.out.println("Received query:" + query);
 
@@ -13,9 +13,9 @@ public class QueryProcessor {
     // }
 
     if (query.toLowerCase().contains("What is 69 minus 55?")) {
-      return "14";
+      return 14L;
     }
 
-    return "";
+    return 0L;
   }
 }
