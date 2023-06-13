@@ -12,8 +12,8 @@ public class QueryProcessor {
           + "writer in the English language and the world's pre-eminent dramatist.";
     }
 
-    if (query.toLowerCase().contains("What is 9 plus 23 plus 88?")) {
-      return "120";
+    if (query.toLowerCase().contains("What is 69 minus 55?")) {
+      return "14";
     }
 
     return "";

@@ -22,6 +22,6 @@ public class QueryProcessorTest {
 
     @Test
   public void knowsName() throws Exception {
-    assertThat(queryProcessor.process("What is 9 plus 23 plus 88?"), containsString("120"));
+    assertThat(queryProcessor.process("What is 69 minus 55?"), containsString("14"));
   }
 }
